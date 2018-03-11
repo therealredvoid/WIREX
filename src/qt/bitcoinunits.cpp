@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The WIREX developers
 // Copyright (c) 2017-2018 The WIRE developers
 
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -21,18 +21,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(PIV);
-    unitlist.append(mPIV);
-    unitlist.append(uPIV);
+    unitlist.append(WIRE);
+    unitlist.append(mWIRE);
+    unitlist.append(uWIRE);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case PIV:
-    case mPIV:
-    case uPIV:
+    case WIRE:
+    case mWIRE:
+    case uWIRE:
         return true;
     default:
         return false;
@@ -42,11 +42,11 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case PIV:
+    case WIRE:
         return QString("wire");
-    case mPIV:
+    case mWIRE:
         return QString("mwire");
-    case uPIV:
+    case uWIRE:
         return QString::fromUtf8("uwire");
     default:
         return QString("???");
@@ -57,23 +57,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case PIV:
-            return QString("PIV");
-        case mPIV:
-            return QString("mPIV");
-        case uPIV:
-            return QString::fromUtf8("μPIV");
+        case WIRE:
+            return QString("WIRE");
+        case mWIRE:
+            return QString("mWIRE");
+        case uWIRE:
+            return QString::fromUtf8("μWIRE");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case PIV:
-            return QString("tPIV");
-        case mPIV:
-            return QString("mtPIV");
-        case uPIV:
-            return QString::fromUtf8("μtPIV");
+        case WIRE:
+            return QString("tWIRE");
+        case mWIRE:
+            return QString("mtWIRE");
+        case uWIRE:
+            return QString::fromUtf8("μtWIRE");
         default:
             return QString("???");
         }
@@ -84,23 +84,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case PIV:
-            return QString("PIV");
-        case mPIV:
-            return QString("Milli-PIV (1 / 1" THIN_SP_UTF8 "000)");
-        case uPIV:
-            return QString("Micro-PIV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case WIRE:
+            return QString("WIRE");
+        case mWIRE:
+            return QString("Milli-WIRE (1 / 1" THIN_SP_UTF8 "000)");
+        case uWIRE:
+            return QString("Micro-WIRE (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case PIV:
-            return QString("TestPIVs");
-        case mPIV:
-            return QString("Milli-TestPIV (1 / 1" THIN_SP_UTF8 "000)");
-        case uPIV:
-            return QString("Micro-TestPIV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case WIRE:
+            return QString("TestWIREs");
+        case mWIRE:
+            return QString("Milli-TestWIRE (1 / 1" THIN_SP_UTF8 "000)");
+        case uWIRE:
+            return QString("Micro-TestWIRE (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -110,11 +110,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case PIV:
+    case WIRE:
         return 100000000;
-    case mPIV:
+    case mWIRE:
         return 100000;
-    case uPIV:
+    case uWIRE:
         return 100;
     default:
         return 100000000;
@@ -124,11 +124,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case PIV:
+    case WIRE:
         return 8;
-    case mPIV:
+    case mWIRE:
         return 5;
-    case uPIV:
+    case uWIRE:
         return 2;
     default:
         return 0;

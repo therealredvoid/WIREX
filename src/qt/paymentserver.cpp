@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The WIREX developers
 // Copyright (c) 2017-2018 The WIRE developers
 
 // Distributed under the MIT software license, see the accompanying

@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The WIREX developers
 // Copyright (c) 2017-2018 The WIRE developers
 
 // Distributed under the MIT software license, see the accompanying
@@ -87,24 +87,24 @@ enum AvailableCoinsType {
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
-// Possible states for zPIV send
+// Possible states for zWIRE send
 enum ZerocoinSpendStatus {
-    ZPIV_SPEND_OKAY = 0,                            // No error
-    ZPIV_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZPIV_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZPIV_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZPIV_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZPIV_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZPIV_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZPIV_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZPIV_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZPIV_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZPIV_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZPIV_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZPIV_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZPIV_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZPIV_SPENT_USED_ZPIV = 14,                      // Coin has already been spend
-    ZPIV_TX_TOO_LARGE = 15                          // The transaction is larger than the max tx size
+    ZWIRE_SPEND_OKAY = 0,                            // No error
+    ZWIRE_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZWIRE_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZWIRE_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZWIRE_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZWIRE_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZWIRE_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZWIRE_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZWIRE_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZWIRE_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZWIRE_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZWIRE_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZWIRE_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZWIRE_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZWIRE_SPENT_USED_ZWIRE = 14,                      // Coin has already been spend
+    ZWIRE_TX_TOO_LARGE = 15                          // The transaction is larger than the max tx size
 };
 
 struct CompactTallyItem {

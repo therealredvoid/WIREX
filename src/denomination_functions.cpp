@@ -6,7 +6,7 @@
  * @copyright  Copyright 2017 WIRE Developers
  * @license    This project is released under the MIT license.
  **/
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The WIREX developers
 // Copyright (c) 2017-2018 The WIRE developers
 
 

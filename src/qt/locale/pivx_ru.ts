@@ -172,7 +172,7 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>WIRE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <source>WIRE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WIREs from being stolen by malware infecting your computer.</source>
         <translation>WIRE сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши WIRE от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
@@ -180,8 +180,8 @@
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WIRE&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ WIRE&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1504,24 +1504,24 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 WIRE</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 WIRE</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 WIRE</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 WIRE</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 WIRE to anonymize 10000 PIV</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 WIRE для анонимизации 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 WIRE to anonymize 10000 WIRE</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 WIRE для анонимизации 10000 WIRE</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 WIRE to anonymize 10000 PIV</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 WIRE для анонимизации 10000 PIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 WIRE to anonymize 10000 WIRE</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 WIRE для анонимизации 10000 WIRE</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -2570,8 +2570,8 @@ https://www.transifex.com/wire-project/wire-project-translations</translation>
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 WIRE</source>
+        <translation>0 WIRE</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>

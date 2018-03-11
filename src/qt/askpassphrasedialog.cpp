@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The WIREX developers
 // Copyright (c) 2017-2018 The WIRE developers
 
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -77,7 +77,7 @@ AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel
     }
 
     // Set checkbox "For anonymization, automint, and staking only" depending on from where we were called
-    if (context == Context::Unlock_Menu || context == Context::Mint_zPIV || context == Context::BIP_38) {
+    if (context == Context::Unlock_Menu || context == Context::Mint_zWIRE || context == Context::BIP_38) {
         ui->anonymizationCheckBox->setChecked(true);
     }
     else {
@@ -85,7 +85,7 @@ AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel
     }
 
     // It doesn't make sense to show the checkbox for sending WIRE because you wouldn't check it anyway.
-    if (context == Context::Send_PIV || context == Context::Send_zPIV) {
+    if (context == Context::Send_WIRE || context == Context::Send_zWIRE) {
         ui->anonymizationCheckBox->hide();
     }
 
@@ -125,7 +125,7 @@ void AskPassphraseDialog::accept()
             break;
         }
         QMessageBox::StandardButton retval = QMessageBox::question(this, tr("Confirm wallet encryption"),
-            tr("Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR PIV</b>!") + "<br><br>" + tr("Are you sure you wish to encrypt your wallet?"),
+            tr("Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR WIRE</b>!") + "<br><br>" + tr("Are you sure you wish to encrypt your wallet?"),
             QMessageBox::Yes | QMessageBox::Cancel,
             QMessageBox::Cancel);
         if (retval == QMessageBox::Yes) {
@@ -135,7 +135,7 @@ void AskPassphraseDialog::accept()
                         "<qt>" +
                             tr("WIRE will close now to finish the encryption process. "
                                "Remember that encrypting your wallet cannot fully protect "
-                               "your PIVs from being stolen by malware infecting your computer.") +
+                               "your WIREs from being stolen by malware infecting your computer.") +
                             "<br><br><b>" +
                             tr("IMPORTANT: Any previous backups you have made of your wallet file "
                                "should be replaced with the newly generated, encrypted wallet file. "

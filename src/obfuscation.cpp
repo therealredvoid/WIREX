@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The WIREX developers
 // Copyright (c) 2017-2018 The WIRE developers
 
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -1919,10 +1919,10 @@ void CObfuscationPool::GetDenominationsToString(int nDenom, std::string& strDeno
 {
     // Function returns as follows:
     //
-    // bit 0 - 100PIV+1 ( bit on if present )
-    // bit 1 - 10PIV+1
-    // bit 2 - 1PIV+1
-    // bit 3 - .1PIV+1
+    // bit 0 - 100WIRE+1 ( bit on if present )
+    // bit 1 - 10WIRE+1
+    // bit 2 - 1WIRE+1
+    // bit 3 - .1WIRE+1
     // bit 3 - non-denom
 
 
@@ -1992,10 +1992,10 @@ int CObfuscationPool::GetDenominations(const std::vector<CTxOut>& vout, bool fSi
 
     // Function returns as follows:
     //
-    // bit 0 - 100PIV+1 ( bit on if present )
-    // bit 1 - 10PIV+1
-    // bit 2 - 1PIV+1
-    // bit 3 - .1PIV+1
+    // bit 0 - 100WIRE+1 ( bit on if present )
+    // bit 1 - 10WIRE+1
+    // bit 2 - 1WIRE+1
+    // bit 3 - .1WIRE+1
 
     return denom;
 }
