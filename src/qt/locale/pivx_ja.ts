@@ -1,4 +1,4 @@
-<TS language="ja" version="2.1">
+﻿<TS language="ja" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -266,6 +266,6 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>wire-core</name>
     </context>
 </TS>

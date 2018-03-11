@@ -1,19 +1,19 @@
 [Unit]
-Description=PIVX's distributed currency daemon
+Description=WIRE's distributed currency daemon
 After=network.target
 
 [Service]
-User=pivx
-Group=pivx
+User=wire
+Group=wire
 
 Type=forking
-PIDFile=/var/lib/pivxd/pivxd.pid
+PIDFile=/var/lib/wired/wired.pid
 
-ExecStart=/usr/bin/pivxd -daemon -pid=/var/lib/pivxd/pivxd.pid \
-          -conf=/etc/pivx/pivx.conf -datadir=/var/lib/pivxd
+ExecStart=/usr/bin/wired -daemon -pid=/var/lib/wired/wired.pid \
+          -conf=/etc/wire/wire.conf -datadir=/var/lib/wired
 
-ExecStop=-/usr/bin/pivx-cli -conf=/etc/pivx/pivx.conf \
-         -datadir=/var/lib/pivxd stop
+ExecStop=-/usr/bin/wire-cli -conf=/etc/wire/wire.conf \
+         -datadir=/var/lib/wired stop
 
 Restart=always
 PrivateTmp=true

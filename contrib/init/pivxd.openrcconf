@@ -1,25 +1,25 @@
-# /etc/conf.d/pivxd: config file for /etc/init.d/pivxd
+# /etc/conf.d/wired: config file for /etc/init.d/wired
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/pivx/pivx.conf"
+#BITCOIND_CONFIGFILE="/etc/wire/wire.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/pivxd"
+#BITCOIND_PIDDIR="/var/run/wired"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/pivxd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/wired.pid"
 
-# Where to write pivxd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/pivxd"
+# Where to write wired data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/wired"
 
-# User and group to own pivxd process
-#BITCOIND_USER="pivx"
-#BITCOIND_GROUP="pivx"
+# User and group to own wired process
+#BITCOIND_USER="wire"
+#BITCOIND_GROUP="wire"
 
-# Path to pivxd executable
-#BITCOIND_BIN="/usr/bin/pivxd"
+# Path to wired executable
+#BITCOIND_BIN="/usr/bin/wired"
 
-# Nice value to run pivxd under
+# Nice value to run wired under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

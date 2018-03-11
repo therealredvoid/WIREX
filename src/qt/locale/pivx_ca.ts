@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>WIRE Core</source>
+        <translation>WIRE Core</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp;Sobre PIVX Core</translation>
+        <source>&amp;About WIRE Core</source>
+        <translation>&amp;Sobre WIRE Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>WIRE Core</source>
+        <translation>WIRE Core</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>Sobre PIVX Core</translation>
+        <source>About WIRE Core</source>
+        <translation>Sobre WIRE Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Benvingut a PIVX Core.</translation>
+        <source>Welcome to WIRE Core.</source>
+        <translation>Benvingut a WIRE Core.</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>WIRE Core</source>
+        <translation>WIRE Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1147,8 +1147,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>WIRE Core</source>
+        <translation>WIRE Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1310,7 +1310,7 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>wire-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

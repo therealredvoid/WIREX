@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите PIVX адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your WIRE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите WIRE адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите PIVX адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your WIRE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите WIRE адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Потвърдете криптирането на портфейла</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX сега ще се затвори, за да довърши процеса на криптиране. Запомнете, че криптирането на вашия портфейл не може напълно да защити вашия PIVX от това, да бъде откраднат от злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>WIRE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>WIRE сега ще се затвори, за да довърши процеса на криптиране. Запомнете, че криптирането на вашия портфейл не може напълно да защити вашия WIRE от това, да бъде откраднат от злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,8 +239,8 @@
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>PIVX адреса, с който да подпишете съобщението</translation>
+        <source>The WIRE address to sign the message with</source>
+        <translation>WIRE адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този PIVX адрес</translation>
+        <source>Sign the message to prove you own this WIRE address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този WIRE адрес</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -432,8 +432,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>PIVX адреса, с който да подпишете съобщението</translation>
+        <source>The WIRE address to sign the message with</source>
+        <translation>WIRE адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -456,8 +456,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този PIVX адрес</translation>
+        <source>Sign the message to prove you own this WIRE address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този WIRE адрес</translation>
     </message>
     </context>
 <context>
@@ -522,6 +522,6 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>wire-core</name>
     </context>
 </TS>

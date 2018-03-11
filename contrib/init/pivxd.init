@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  pivxd The PIVX core server.
+#  wired The WIRE core server.
 #
 #
 # chkconfig: 345 80 20
-# description: pivxd
-# processname: pivxd
+# description: wired
+# processname: wired
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/pivxd, see below
-if [ -f /etc/sysconfig/pivxd ]; then
-        . /etc/sysconfig/pivxd
+# you can override defaults in /etc/sysconfig/wired, see below
+if [ -f /etc/sysconfig/wired ]; then
+        . /etc/sysconfig/wired
 fi
 
 RETVAL=0
 
-prog=pivxd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/pivxd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/pivxd}
+prog=wired
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/wired
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/wired}
 
-# pivxd defaults to /usr/bin/pivxd, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/pivxd}
+# wired defaults to /usr/bin/wired, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/wired}
 
-# pivxd opts default to -disablewallet, override with BITCOIND_OPTS
+# wired opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {
