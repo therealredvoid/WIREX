@@ -1540,20 +1540,20 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Use 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 PIV para anonimizar 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 WIRE to anonymize 10000 PIV</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 WIRE para anonimizar 10000 PIV</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 PIV para anonimizar 10000 PIV.</translation>
+        <source>This option is moderately fast and will cost about 0.05 WIRE to anonymize 10000 PIV</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 WIRE para anonimizar 10000 PIV.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV por 10000 PIV que anonimizas.</translation>
+        <source>0.1 WIRE per 10000 WIRE you anonymize.</source>
+        <translation>0.1 WIRE por 10000 WIRE que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1696,7 +1696,7 @@ https://www.transifex.com/wire-project/wire-project-translations</translation>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming WIRE which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
         <translation>Porcentaje de PIVs entrantes que serán automáticamente convertidos a zPIV a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
     <message>
@@ -1704,8 +1704,8 @@ https://www.transifex.com/wire-project/wire-project-translations</translation>
         <translation>Porcentaje de zPIV autogenerados</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes PIV disponibles para esta denominación</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough WIRE for this denomination is available</source>
+        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes WIRE disponibles para esta denominación</translation>
     </message>
     <message>
         <source>Connect to the WIRE network through a SOCKS5 proxy.</source>

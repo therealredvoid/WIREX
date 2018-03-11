@@ -1509,31 +1509,31 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 PIV 를 섞을 수 있습니다.</translation>
+        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 WIRE 를 섞을 수 있습니다.</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 PIV 를 섞을 수 있습니다.</translation>
+        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 WIRE 를 섞을 수 있습니다.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16개의 개별 마스터노드를 사용</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>이 옵션은 가장 빠르게 전송되며 10000 PIV 익명화에 약 ~0.025 PIV의 비용이 들어갑니다.</translation>
+        <source>This option is the quickest and will cost about ~0.025 WIRE to anonymize 10000 PIV</source>
+        <translation>이 옵션은 가장 빠르게 전송되며 10000 WIRE 익명화에 약 ~0.025 PIV의 비용이 들어갑니다.</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 PIV 익명화에 약 0.05 PIV의 비용이 들어갑니다.</translation>
+        <source>This option is moderately fast and will cost about 0.05 WIRE to anonymize 10000 PIV</source>
+        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 WIRE 익명화에 약 0.05 PIV의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>이것은 가장 느리고 안전한 옵션입니다. 최고 익명성을 사용하면 비용이 발생합니다.</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>10000 PIV 익명화에 0.1 PIV 가 듭니다.</translation>
+        <source>0.1 WIRE per 10000 WIRE you anonymize.</source>
+        <translation>10000 WIRE 익명화에 0.1 WIRE 가 듭니다.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>

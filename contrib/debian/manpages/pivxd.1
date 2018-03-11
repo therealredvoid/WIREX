@@ -169,7 +169,7 @@ Returns a list of the last ['count'] transactions for 'account' \- for all accou
 Moves funds between accounts.
 .TP
 \fBsendfrom* <'account'> <'wireaddress'> <'amount'> ['minconf=1'] ['comment'] ['comment-to']\fR
-Sends amount from account's balance to 'wireaddress'. This method will fail if there is less than amount PIV with ['minconf'] confirmations in the account's balance (unless account is the empty-string-named default account; it behaves like the *sendtoaddress* method). Returns transaction ID on success.
+Sends amount from account's balance to 'wireaddress'. This method will fail if there is less than amount WIRE with ['minconf'] confirmations in the account's balance (unless account is the empty-string-named default account; it behaves like the *sendtoaddress* method). Returns transaction ID on success.
 .TP
 \fBsendtoaddress 'wireaddress' 'amount' ['comment'] ['comment-to']\fR
 Sends amount from the server's available balance to 'wireaddress'. amount is a real and is rounded to the nearest 0.01. Returns transaction id on success.

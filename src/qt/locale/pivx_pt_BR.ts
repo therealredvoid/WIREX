@@ -1464,20 +1464,20 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Use 16 masternodes separados</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 PIV para anonimizar 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 WIRE to anonymize 10000 PIV</source>
+        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 WIRE para anonimizar 10000 PIV</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 PIV para anonimizar 10000 PIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 WIRE to anonymize 10000 PIV</source>
+        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 WIRE para anonimizar 10000 PIV</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV por 10000 PIV que deixar anônima.</translation>
+        <source>0.1 WIRE per 10000 WIRE you anonymize.</source>
+        <translation>0.1 WIRE por 10000 WIRE que deixar anônima.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>

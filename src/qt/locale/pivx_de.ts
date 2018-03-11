@@ -1540,31 +1540,31 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>2 separate Masternodes verwenden um bis zu 10000 PIV zu mixen</translation>
+        <translation>2 separate Masternodes verwenden um bis zu 10000 WIRE zu mixen</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>8 separate Masternodes verwenden um bis zu 10000 PIV zu mixen</translation>
+        <translation>8 separate Masternodes verwenden um bis zu 10000 WIRE zu mixen</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16 separate Masternodes verwenden</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Diese Option ist die schnellst und kostet ungefähr ~0.025 PIV um 10000 PIV zu anonymisieren </translation>
+        <source>This option is the quickest and will cost about ~0.025 WIRE to anonymize 10000 PIV</source>
+        <translation>Diese Option ist die schnellst und kostet ungefähr ~0.025 WIRE um 10000 WIRE zu anonymisieren </translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Diese Option ist angemessen schnell und kostet ungefähr  0.05 PIV um 10000 PIV zu anonymisieren</translation>
+        <source>This option is moderately fast and will cost about 0.05 WIRE to anonymize 10000 PIV</source>
+        <translation>Diese Option ist angemessen schnell und kostet ungefähr  0.05 WIRE um 10000 WIRE zu anonymisieren</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Diese Option ist die langsamste und sicherste Option. Die Verwendung maximaler Anonymisierung kostet</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV per 10000 PIV die anonymisiert werden.</translation>
+        <source>0.1 WIRE per 10000 WIRE you anonymize.</source>
+        <translation>0.1 WIRE per 10000 WIRE die anonymisiert werden.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1707,7 +1707,7 @@ https://www.transifex.com/wire-project/wire-project-translations</translation>
         <translation>Port mit &amp;UPnP mappen</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming WIRE which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
         <translation>Anteil des einkommenden PIV, welcher automatisch zu zPIV via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
     </message>
     <message>
@@ -1715,8 +1715,8 @@ https://www.transifex.com/wire-project/wire-project-translations</translation>
         <translation>Prozentsatz der automatisierten zPIV</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Warte mit automatischer Konvertierung zu Zerocoin, bis genügend PIV für diese Stückelung verfügbar ist</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough WIRE for this denomination is available</source>
+        <translation>Warte mit automatischer Konvertierung zu Zerocoin, bis genügend WIRE für diese Stückelung verfügbar ist</translation>
     </message>
     <message>
         <source>Preferred Automint zPIV Denomination</source>
@@ -2059,8 +2059,8 @@ https://www.transifex.com/wire-project/wire-project-translations</translation>
         <translation>PIV, die über das Zerocin-Protokoll anonymisiert wurden</translation>
     </message>
     <message>
-        <source>Zerocoin PIV (zPIV)</source>
-        <translation>Zerocoin PIV (zPIV)</translation>
+        <source>Zerocoin WIRE (zPIV)</source>
+        <translation>Zerocoin WIRE (zPIV)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -3963,7 +3963,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>Converted Piv to zPiv</source>
-        <translation>Umgewandeltes PIV zu zPIV</translation>
+        <translation>Umgewandeltes WIRE zu zPIV</translation>
     </message>
     <message>
         <source>Spent zPiv</source>
@@ -3971,7 +3971,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>Received Piv from zPiv</source>
-        <translation>Empfangene PIV von zPIV</translation>
+        <translation>Empfangene WIRE von zPIV</translation>
     </message>
     <message>
         <source>Minted Change as zPiv from zPiv Spend</source>
@@ -4098,7 +4098,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>Received Piv from zPiv</source>
-        <translation>Empfangen PIV von zPIV</translation>
+        <translation>Empfangen WIRE von zPIV</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4235,7 +4235,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
     <message>
         <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 PIV begrenzt.</translation>
+        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 WIRE begrenzt.</translation>
     </message>
 </context>
 <context>

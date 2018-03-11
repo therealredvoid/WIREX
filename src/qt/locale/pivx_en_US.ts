@@ -1556,20 +1556,20 @@ Please check the address and try again.</translation>
         <translation>Use 16 separate masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 WIRE to anonymize 10000 PIV</source>
+        <translation>This option is the quickest and will cost about ~0.025 WIRE to anonymize 10000 PIV</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 WIRE to anonymize 10000 PIV</source>
+        <translation>This option is moderately fast and will cost about 0.05 WIRE to anonymize 10000 PIV</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>This is the slowest and most secure option. Using maximum anonymity will cost</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV per 10000 PIV you anonymize.</translation>
+        <source>0.1 WIRE per 10000 WIRE you anonymize.</source>
+        <translation>0.1 WIRE per 10000 WIRE you anonymize.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1927,8 +1927,8 @@ https://www.transifex.com/wire-project/wire-project-translations</translation>
         <translation>Obfuscation Balance:</translation>
     </message>
     <message>
-        <source>0 PIV / 0 Rounds</source>
-        <translation>0 PIV / 0 Rounds</translation>
+        <source>0 WIRE / 0 Rounds</source>
+        <translation>0 WIRE / 0 Rounds</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -4578,8 +4578,8 @@ for example: alertnotify=echo %%s | mail -s "WIRE Alert" admin@foo.com
         <translation>Enable staking functionality (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Keep N PIV anonymized (default: %u)</source>
-        <translation>Keep N PIV anonymized (default: %u)</translation>
+        <source>Keep N WIRE anonymized (default: %u)</source>
+        <translation>Keep N WIRE anonymized (default: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
