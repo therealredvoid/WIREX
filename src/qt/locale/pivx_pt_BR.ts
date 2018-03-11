@@ -3494,8 +3494,8 @@ https://www.transifex.com/wire-project/wire-project-translations</translation>
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(51472 could be used only on mainnet)</source>
-        <translation>(51472 could be used only on mainnet)</translation>
+        <source>(6520 could be used only on mainnet)</source>
+        <translation>(6520 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3506,8 +3506,8 @@ https://www.transifex.com/wire-project/wire-project-translations</translation>
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 51472 for mainnet)</source>
-        <translation>(deve ser 51472 para mainnet)</translation>
+        <source>(must be 6520 for mainnet)</source>
+        <translation>(deve ser 6520 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
