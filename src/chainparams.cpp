@@ -53,16 +53,18 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 //   (no blocks before with a timestamp after, none after with
 //    timestamp before)
 // + Contains no strange transactions
+
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    //(259201, uint256("1c9121bf9329a6234bfd1ea2d91515f19cd96990725265253f4b164283ade5dd"));
+    (0, uint256("0x000000008c5023972d7fecb3d452db89b4a21903cdde5b08db7c8924aaab51f7"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1520522140, // * UNIX timestamp of last checkpoint block
+    1514540176, // * UNIX timestamp of last checkpoint block
     0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
+
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
@@ -147,20 +149,20 @@ public:
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 0 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1520522140;
+        genesis.nTime = 1520767002;
         genesis.nBits = 0x1d00ffff;
-        genesis.nNonce = 776234032;
+        genesis.nNonce = 167002818;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("000000008c5023972d7fecb3d452db89b4a21903cdde5b08db7c8924aaab51f7"));
+        assert(hashGenesisBlock == uint256("0x00000000e71efc2ccba0e007cb07443589b7b0b614a40bc8f302d9bcefe5d55e"));
         assert(genesis.hashMerkleRoot == uint256("78bbc2473da9e7714694aaf21f9c14324b129e2aca8715331a9b2a58379c1f50"));
 
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "wire.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
+        //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "wire.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
         //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "wire.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
         //vSeeds.push_back(CDNSSeedData("coin-server.com", "coin-server.com"));         // Single node address
         //vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net")); // Single node address
